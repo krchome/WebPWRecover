@@ -1,0 +1,9 @@
+ "KRCSendgridAPIKey" was successfully created and added to the next step.
+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
+
+[Environment]::SetEnvironmentVariable("KRCSendgridAPIKey", "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", "User")
+
+dotnet user-secrets set SendGridUser KRCSendgridAPIKey
+dotnet user-secrets set SendGridKey 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
+
+%APPDATA%/Microsoft/UserSecrets/<WebPWrecover-xxxxxxxxxx> (Full Path C:\Users\OEM\AppData\Roaming\Microsoft\UserSecrets\aspnet-WebPWrecover-469FF74F-C6F7-401A-AA29-C44CB26D50A2
